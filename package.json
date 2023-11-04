@@ -1,0 +1,8 @@
+{
+  "name": "todo-log-webpack-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cyjo9603/todo-log-webpack-plugin.git",
+  "author": "cyjo9603 <cyjo9603@naver.com>",
+  "license": "MIT"
+}
