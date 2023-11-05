@@ -21,7 +21,7 @@ export class TodoLogWebpackPlugin {
   };
   private todoComments: TodoComment[];
 
-  constructor(options: Partial<TodoLogWebpackPluginOptions>) {
+  constructor(options?: Partial<TodoLogWebpackPluginOptions>) {
     this.options = { ...this.options, ...options };
     this.todoComments = [];
   }
@@ -66,5 +66,3 @@ export class TodoLogWebpackPlugin {
     });
   }
 }
-
-export default TodoLogWebpackPlugin;

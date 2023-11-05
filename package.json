@@ -1,10 +1,19 @@
 {
   "name": "todo-log-webpack-plugin",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.4",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/cyjo9603/todo-log-webpack-plugin.git",
-  "author": "cyjo9603 <cyjo9603@naver.com>",
+  "author": "cyjo9603 <cyjo9603@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "todo"
+  ],
+  "bugs": {
+    "email": "cyjo9603@gmail.com"
+  },
   "scripts": {
     "build": "tsc"
   },
